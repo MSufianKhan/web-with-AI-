@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexora | Find Your Lawyer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Lexora<span>.</span></a>
+
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">☰</label>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" class="signup-btn">Sign Up ↗</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tagline">YOUR TRUSTED LEGAL PARTNER</p>
+
+            <h1>Find The Right Lawyer For <span>Your Future.</span></h1>
+
+            <p class="hero-text">
+                Get connected with experienced legal professionals
+                who understand your needs. Reliable guidance,
+                trusted advice, and support at every step.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#contact" class="primary-btn">Find a Lawyer ↗</a>
+                <a href="#services" class="secondary-btn">Explore Services →</a>
+            </div>
+
+            <div class="trust">
+                <strong>Professional Legal Support</strong>
+                <p>Trusted guidance. Clear solutions.</p>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="image-card">
+                <div class="scales">⚖</div>
+                <p class="image-label">JUSTICE • TRUST • EXPERIENCE</p>
+                <h2>Your Rights Matter.</h2>
+                <p>Expert advice for every legal challenge.</p>
+                <div class="image-line"></div>
+                <p class="image-footer">YOUR CASE. OUR COMMITMENT.</p>
+            </div>
+            <div class="floating-card">✓ Trusted Legal Guidance</div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services section" id="services">
+        <div class="section-heading">
+            <p class="tagline">WHAT WE OFFER</p>
+            <h2>Legal Help For <span>Every Need.</span></h2>
+            <p>Find support for your personal and professional legal matters.</p>
+        </div>
+
+        <div class="service-grid">
+            <article class="service-card">
+                <div class="service-icon">⌂</div>
+                <h3>Family Law</h3>
+                <p>Get guidance on family matters, divorce, custody, and personal legal issues.</p>
+                <a href="#contact">Learn More ↗</a>
+            </article>
+
+            <article class="service-card highlighted">
+                <div class="service-icon">▤</div>
+                <h3>Business Law</h3>
+                <p>Protect your business with contract advice and professional legal support.</p>
+                <a href="#contact">Learn More ↗</a>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">⚖</div>
+                <h3>Criminal Defense</h3>
+                <p>Understand your legal options and get help navigating complex disputes.</p>
+                <a href="#contact">Learn More ↗</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- About / How It Works -->
+    <section class="about section" id="about">
+        <div class="about-content">
+            <p class="tagline">SIMPLE. CLEAR. PROFESSIONAL.</p>
+            <h2>Your Legal Journey Starts <span>Here.</span></h2>
+            <p>
+                Finding legal help should be simple. Tell us what you need,
+                explore your options, and take your next step with confidence.
+            </p>
+            <a href="#contact" class="primary-btn">Get Started ↗</a>
+        </div>
+
+        <div class="steps">
+            <div class="step">
+                <span>01</span>
+                <div>
+                    <h3>Tell Us Your Needs</h3>
+                    <p>Share a few details about your legal situation.</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <span>02</span>
+                <div>
+                    <h3>Find Your Lawyer</h3>
+                    <p>Look for legal support that suits your requirements.</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <span>03</span>
+                <div>
+                    <h3>Move Forward</h3>
+                    <p>Discuss your case and possible next steps with a professional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact section" id="contact">
+        <div class="contact-info">
+            <p class="tagline">LET'S TALK</p>
+            <h2>Ready To Find Your <span>Lawyer?</span></h2>
+            <p>
+                Complete the form and take the first step towards
+                finding the legal support you need.
+            </p>
+            <div class="contact-note">
+                <span>✦</span>
+                <div>
+                    <strong>Personalized Legal Support</strong>
+                    <p>Professional guidance starts here.</p>
+                </div>
+            </div>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+            <h2>Get In Touch</h2>
+            <p>Tell us a little about yourself.</p>
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="service">Legal Service</label>
+            <select id="service" name="service" required>
+                <option value="" disabled selected>Select a service</option>
+                <option>Family Law</option>
+                <option>Business Law</option>
+                <option>Criminal Defense</option>
+                <option>Other</option>
+            </select>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="How can we help?"></textarea>
+
+            <button type="submit" class="primary-btn">Sign Up Now ↗</button>
+            <small>Your information should be handled securely.</small>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#" class="logo">Lexora<span>.</span></a>
+        <p>Making legal support easier to find.</p>
+        <p class="copyright">© 2026 Lexora. All rights reserved.</p>
+    </footer>
+
+
+
+    <script>
+
+        const elements = document.querySelectorAll(
+            ".service-card, .about-content, .step, .contact-info, .contact-form"
+        );
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("visible");
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.15
+        });
+
+        elements.forEach((element) => {
+            element.classList.add("reveal");
+            observer.observe(element);
+        });
+
+    </script>
+</body>
+
+</html>
